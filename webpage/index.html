@@ -1,0 +1,630 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>基金链 CBC</title>
+<meta name="description" content="All-currency and cross-chain wallet.">
+<meta property="og:title" content="" />
+<meta property="og:url" content="https://cn..io" />
+<meta property="og:description" content="All-currency and cross-chain wallet." />
+<meta property="og:type" content="website" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff ">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff ">
+
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" type="text/css" href="css/slick.css" />
+<link rel="stylesheet" type="text/css" href="css/mcn.css" />
+<link rel="stylesheet" href="css/main.css?v=40">
+<link rel="stylesheet" type="text/css" href="css/icc-index.css" />
+<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+
+<script src="js/plugins.js"></script>
+<script src="js/main.js?v=36"></script>
+<script>
+function vidEvent() {
+  var video = document.getElementById('mainVideo');
+  video.addEventListener('click', function() {
+    video.play();
+  }, false);
+}
+//window.onload = vidEvent;
+</script>
+<style>
+.header-menu li a {
+    color:#F0CA47 ;
+	}
+	
+
+.scroll-top {
+
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    border-radius: 50%;
+    bottom: 30px;
+    right: 30px;
+    z-index: 99;
+    display: none;
+    color: #caa268;
+    background: #10252e;
+    text-align: center;
+    border: 2px solid #19333e;
+
+}
+
+	.scroll-top::after {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    top: 100%;
+    left: 5%;
+    height: 10px;
+    width: 90%;
+    opacity: 1;
+    background: radial-gradient(ellipse at center,rgba(0,0,0,.25) 0,rgba(0,0,0,0) 80%);
+}
+
+.tran3s {
+    transition: all .3s ease-in-out;
+}
+button {
+    border: none;
+    outline: 0;
+    box-shadow: none;
+    display: block;
+    padding: 0;
+    background: 0 0;
+}
+
+</style>
+<meta property="og:image" content="./img/social-sq.jpg">
+</head>
+
+<body>
+<header style="background-color:#444;opacity:0.9;">
+  <div class="header-wrap">
+    <a href="./" class="logo">
+      <img src="./img/logo.png" alt="">
+    </a>
+	    <a href="./index-en.html" class="header__invest" style="padding-left: 10px;" >英文版</a>
+	<a href="./whitepager.pdf" class="header__invest" style="display:none;"><span class="shadow-botton">白皮书</span></a>
+
+	
+    <div class="mobile-menu">
+      <p style="oolor:white;">菜单</p>
+      <div class="ham">
+        <span class="ham__top"></span>
+        <span class="ham__mid"></span>
+        <span class="ham__bot"></span>
+      </div>
+      <div class="mobile-menu__menu closed">
+        <div class="menu__logo">
+          <img src="./img/logo.png" alt="logo">
+        </div>
+        <ul>
+		  <li><a rel="hash" href="#register">首页</a></li>
+		 <!--
+          <li><a rel="hash" href="#video">视频</a></li>
+		  -->
+		    <li><a rel="hash" href="#video">产品介绍</a></li>
+          <li><a rel="hash" href="#coin">产品特点</a></li>
+        
+          <li><a rel="hash" href="#how-it-works">核心技术</a></li>
+          <li><a rel="hash" href="#profit">产品优势</a></li>
+		   <li><a rel="hash"  href="#roadmap">路线图</a></li>
+         <li><a rel="hash"  href="#advisers">顾问</a></li>
+		  
+		  
+          <li><a rel="hash"  href="#partner">合作伙伴</a></li>
+		  <li><a rel="hash"  href="https://gist.github.com/shijinbiao2006/27fd8e543c7219241a8586d1ce1882f2">公开代码</a></li> 
+		   
+		   <li><a rel="hash" href="./whitepager.pdf">白皮书</a></li>
+		 
+		    <li><a rel="hash" href="./index-en.html">英文版</a></li>
+        </ul>
+        <div class="close-menu">
+          <a class="close-menu-btn">
+            <img src="./img/ico/close.png" alt="close">
+          </a>
+        </div>
+      </div>
+    </div>
+    <nav class="header-menu" style="margin-right: 30px;">
+	 <li><a   class="active" rel="hash" href="#register">首页</a></li>
+	 <!--
+	  <li><a rel="hash" href="#video">视频</a></li>
+	  -->
+	   <li><a rel="hash" href="#video">产品介绍</a></li>
+	   
+      <li><a rel="hash" href="#coin">产品特点</a></li>
+      
+          <li><a rel="hash" href="#how-it-works">核心技术</a></li>
+          <li><a rel="hash" href="#profit">产品优势</a></li>
+		    <li><a rel="hash"  href="#roadmap">路线图</a></li>
+		  <li><a rel="hash"  href="#advisers">顾问</a></li>
+		  
+		  
+          <li><a rel="hash"  href="#partner">合作伙伴</a></li>
+		  	  <li><a rel="hash"  href="https://gist.github.com/shijinbiao2006/27fd8e543c7219241a8586d1ce1882f2">公开代码</a></li> 
+     <li><a rel="hash" href="./whitepager.pdf">白皮书</a></li>
+    </nav>
+    <div class="clearfix"></div>
+  </div>
+</header>
+
+  <div class="section banner" style="position: relative;top:1px;" id="register">
+    <div style="width: 100%;height: 100%;position: absolute">
+        <canvas style="width: 100%;height: 100%" id="html5_3d_animation" width="500" height="400"></canvas>
+    </div>
+    <div class="banner-con" style="top:100px;">
+        <div class="banner-slog" style="font-size:46px;color:#fff;"> 基金链</div>
+        <div class="projectInfo" style="width: 100%;padding-left: 0;text-align: center;">
+            
+            <div class="main">
+                <div class="projectInfo-title"  style="font-size:35px;">一站式区块链金融投资服务平台</div>
+                <div class="projectInfo-para">
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li>
+						<!--
+                            <span class="label">开始时间</span>
+							 -->
+                        </li>
+                        <li>
+                           
+                        </li>
+                        <li>
+						<!--
+                        	<span class="label">距抢购开始</span>
+                            <strong class="num" id="day">0</strong>天<strong class="num" id="hours">0</strong>时<strong class="num" id="minutes">0</strong>分<strong class="num" id="seconds">0</strong>秒
+                        </li>
+                 -->
+                    </ul>
+                </div>
+
+                <div class="links">
+                    <a href="./whitepager.pdf" style="color: #fff;text-decoration: none;font-weight: 700;font-size: 15px;" ><span class="shadow-botton" style="background: #F0CA47;border: none;padding: 15px 20px;">白皮书</span></a>
+
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+  <div class="soc-bar" >
+    <ul>
+      <li><a rel="nofollow" target="_blank" data-label="tg" href="#"><img src="./img/ico/tele.png" alt=""></a></li>
+      <li><a rel="nofollow" target="_blank" data-label="fb" href="#"><img src="./img/ico/fb.png" alt=""></a></li>
+      <li><a rel="nofollow" target="_blank" data-label="tw" href="#"><img src="./img/ico/tw.png" alt=""></a></li>
+      <li><a data-label="rd" target="_blank" href="#" rel="nofollow"><img src="./img/ico/reddit.png" alt=""></a></li>
+      <li><a data-label="li" target="_blank" href="#" rel="nofollow"><img src="./img/ico/li-sm.png" alt=""></a></li>
+      <li><a data-label="md" target="_blank" href="#" rel="nofollow"><img src="./img/ico/md-sm.png" alt=""></a></li>
+    </ul>
+  </div>
+
+<section class="top top_new" id="video" style="padding-top: 40px;min-height:400px;background-color: #F3EFF6;">
+  <div class="section-wrap">
+    <div class="top__left pulse wow fadeInUp animated" data-wow-delay="0.1s" style="visibility: visible; animation-duration: 1s; animation-name: fadeInUp;">
+      <h2 style="color:#444">利用区块链提供的创新技术能力 <br>我们将成为互联网2.0时代的<br>价值入口<br></h2>
+      <p style="color:#444">我们将会连接每个个体、家庭、商业机构和金融服务提供者，消除金融服务投资的壁垒，降低金融投资服务的成本</p>
+     
+    </div>
+    <div class="top__right">
+      <img src="./img/img_001.png" alt="">
+    </div>
+    <div class="top__white"></div>
+    <div class="clearfix"></div>
+  </div>
+</section>
+<section class="coin" style="padding-top: 70px;padding-bottom: 70px;background-image: url('https://h.cash/themes/en/images/bg_02.jpg');"  id="coin">
+  <div class="section-wrap">
+    <div class="coin__left fadeInLeft wow  animated" data-wow-delay="0.1s" style="visibility: visible; animation-duration: 1s; ">
+      <h2 style="color:#fff;">提供全方位的金融服务</h2>
+    </div>
+    <div class="coin__right fadeInRight wow animated" data-wow-delay="0.1s" style="visibility: visible; animation-duration: 1s; " >
+      <div class="certificates">
+        <div class="certificates-text certificates-text-1">
+          <a href="javascript:;" style="color:#56428e;">安全的技术保障</a>
+          <a href="javascript:;" style="color:#56428e;">资产管理</a>
+        </div>
+        <div class="certificates-text certificates-text-2">
+          <a href="javascript:;" style="color:#56428e;">无门槛投资全球</a>
+          <a href="javascript:;" style="color:#56428e;">投资便捷</a>
+        </div>
+        <div class="certificates-text certificates-text-3">
+          <a href="javascript:;" style="color:#56428e;">项目严格审计</a>
+          <a href="javascript:;" style="color:#56428e;">项目监管</a>
+        </div>
+        <div class="certificates-text certificates-text-4">
+          <a href="javascript:;" style="color:#56428e;">比ICO更安全更可靠</a>
+          <a href="javascript:;" style="color:#56428e;">超越ICO</a>
+        </div>
+      </div>
+    </div>
+    <div class="clearfix"></div>
+  </div>
+</section>
+
+<section class="whole" id="why-we-need-it" style="display:none;">
+  <div class="section-wrap">
+    <h2 class="fadeIn wow" data-wow-delay="0.1s">通过，用户可以在手机端链接整个世界，无论是管理自己的身份信息、还是管理自身的资产、进行移动支付、投资和交易虚拟货币或者直接参与ICO和理财服务</h2>
+    <div class="whole__scheme">
+      <div class="whole__left">
+        <h3>方便的钱包管理</h3>
+        <p>我们提供完全可视化、一键式的钱包管理功能，方便用户能够进行多币种的钱包管理，方便的钱包支付、转账等操作</p>
+      </div>
+      <div class="whole__right">
+        <h3>多币种、多资产管理</h3>
+        <p>能够实现针对不同区块链的多种资产管理，包括以太坊、比特币、莱特币、比特现金、ETH等等，我们还会不断增加更多资产类型</p>
+      </div>
+      <div class="clearfix"></div>
+      <div class="whole__center">
+        <h3>虚拟货币行情查看</h3>
+        <p>我们提供了便捷的虚拟货币行情查看功能，可以实现所有币种的行情查看，同时用户也可以选择自己常用的交易平台行情。我们还会增加交易和行情提醒等功能，便于用户更方便的管理自己的虚拟货币</p>
+      </div>
+    </div>
+    <div class="whole__items">
+      <img src="./img/img_002.png" alt="">
+      <div class="whole-item fadeInDown wow" data-wow-delay="0.1s">
+        <div class="whole-item__img-wrap">
+          <img src="./img/ico/icon1.png" title="Investors" alt="Investors">
+        </div>
+        <h4>方便的钱包管理</h4>
+        <ul>
+          <li>我们提供完全可视化、一键式的钱包管理功能，方便用户能够进行多币种的钱包管理，方便的钱包支付、转账等操作</li>
+        </ul>
+      </div>
+      <div class="whole-item fadeInDown wow" data-wow-delay="0.4s">
+        <div class="whole-item__img-wrap">
+          <img src="./img/ico/icon3.png" title="Managers" alt="Managers">
+        </div>
+        <h4>多币种、多资产管理</h4>
+        <ul>
+          <li>能够实现针对不同区块链的多种资产管理，包括以太坊、比特币、莱特币、比特现金、ETH等等，我们还会不断增加更多资产类型</li>
+        </ul>
+      </div>
+      <div class="whole-item fadeInDown wow" data-wow-delay="0.6s">
+        <div class="whole-item__img-wrap">
+          <img src="./img/ico/icon2.png" title="Brokers" alt="Brokers">
+        </div>
+        <h4>虚拟货币行情查看</h4>
+        <ul>
+          <li>我们提供了便捷的虚拟货币行情查看功能，可以实现所有币种的行情查看，同时用户也可以选择自己常用的交易平台行情。我们还会增加交易和行情提醒等功能，便于用户更方便的管理自己的虚拟货币</li>
+        </ul>
+      </div>
+    </div>
+    <!-- <a class="play-link promo-video" href="https://youtu.be/14jc97gaBZg">
+      <img src="./img/play-btn.png" alt="">
+      <span>欣赏视频</span>
+    </a> -->
+  </div>
+</section>
+<section class="how" id="how-it-works" style="background-color:#601D9F;">
+<!-- background-color:#15b8ac;-->
+  <div class="how__gradient" >
+	
+  
+    <div class="section-wrap">
+      
+        <div class="how__left__slider fadeInDown wow animated" data-wow-delay="0.1s" style="visibility: visible; animation-duration: 1s; ">
+          <div class="how__left__slide" style="min-height:120px;">
+            <h3 style="color:#fff;">分布式结构</h3>
+            <p style="font-size: 15px;color:#fff"> CBC基金投资服务平台的区块链根据系统确定的开源的、去中心化的协议，构建了一个分布式的结构体系，让价值交换的信息通过分布式传播发送给全网，通过分布式记账确定信息数据内容，盖上时间戳后生成区块数据，再通过分布式传播发送给各个节点，实现分布式存储<br></p>
+          </div>
+          <div class="how__left__slide" style="min-height:120px;">
+            <h3 style="color:#fff;">数据区块结构 </h3>
+            <p style="font-size: 15px;color:#fff">在CBC基金投资服务平台中，数据存储也和区块链一样，以区块的方式永久储存。区块按时间顺序逐个先后生成并连接成链，每一个区块记录了创建期间发生的所有交易信息。<br></p>
+          </div>
+          <div class="how__left__slide" style="min-height:120px;">
+            <h3 style="color:#fff;">共识机制</h3>
+            <p style="font-size: 15px;color:#fff">CBC基金投资服务平台所使用的是代理权益拜占庭容错算法（Delegated Stake-PBFT），简称DS-PBFT，这是一 种基于ＰＢＦＴ共识机制修改后的算法，使验证人投票的权重与其所抵押的链上代币权益相对应。<br></p>
+          </div>
+          <div class="how__left__slide" style="min-height:120px;">
+            <h3 style="color:#fff;">安全加密算法</h3>
+            <p style="font-size: 15px;color:#fff">CBC基金投资服务平台使用非对称式加密技术，在区块链上存储的数据主体可以根据不同所有者所具备的不同权限分配不同的可视范围，并且相互之间匿名化。</p>
+          </div>
+     
+      <div class="how__left__slide" style="min-height:120px;">
+            <h3 style="color:#fff;">智能合约</h3>
+            <p style="font-size: 15px;color:#fff">CBC基金投资服务平台内部所有融资服务交易均使用智能合约发起，保证所有资金流转无人工干预，消除人为干扰的渠道。</p>
+          </div>
+        </div>
+       
+      </div>
+     
+    </div>
+  </div>
+</section>
+<section class="profit" id="profit" style="background-image:url('https://h.cash/themes/en/images/bg_01.jpg');background-repeat:no-repeat; background-size:100% 100%;-moz-background-size:100% 100%;">
+  <div class="section-wrap">
+  <h2 style="color:#fff;"><span class="lighter" style="color:#fff;">基金链CBC</span>在系统中的作用</h2>
+    <p class="intro" style="color:#fff;">为了便于进行价值交换和服务提供，在的平台范围内，我们统一采用CBC代币进行融资和支付。</p>
+    <div class="profit__left fadeInLeft wow  animated" data-wow-delay="0.1s" style="visibility: visible; animation-duration: 1s; ">
+      <img src="./img/profit-1.png" alt="investor-manage" />
+      <p style="color:#fff;">作为项目融资金额的标准</p>
+      <p class="intro" style="color:#fff;">在平台范围内的所有项目融资渠道都通过CBCC融资服务平台完成，所需募集资金也以CBC为价格表示，方便于CBC的社区建设和生态体系形成</p>
+    </div>
+    <div class="profit__right fadeInRight wow  animated" data-wow-delay="0.1s" style="visibility: visible; animation-duration: 1s; ">
+      <img src="./img/profit-2.png" alt="investor-investor" />
+      <p style="color:#fff;">CBC融资服务平台价值体现</p>
+      <p class="intro" style="color:#fff;">CBC作为平台内相互流转的唯一指定代币，所有人都可以对其进行买卖交易，因此CBC的流通价格表示了CBC基金投资服务平台的总市值</p>
+    </div>
+    <div class="clearfix"></div>
+  </div>
+</section>
+
+
+<section class="roadmap slideInRight  wow  animated" data-wow-delay="0.1s" id="roadmap" data-wow-offset="200"   >
+  <div class="section-wrap">
+    <h2>路线图</h2>
+    <div id="roadmap-svg">
+      <img src="./img/abc.jpg" alt="roadmap" />
+    </div>
+  </div>
+</section>
+
+<section class="team advisers" id="advisers" style="background-color:#201126;">
+  <div class="section-wrap">
+    <h2 class="wow fadeInUp animated" data-wow-delay="0.1s" style="visibility: visible; animation-duration: 1s; animation-name: fadeInUp;color:#fff;">顾问</h2>
+    <div class="team-items">
+      <div class="team-item  wow fadeInUp animated" data-wow-delay="0.1s" style="visibility: visible; animation-duration: 1s; animation-name: fadeInUp;">
+        <div class="team-item-info">
+          <img src="./img/advisers/lf.png" srcset="./img/advisers/lf.png" alt="Robertas Visinskis" style="border-radius: 50%;">
+          <div class="flag flag-us"></div>
+          <h3 style="color:#fff;min-height:48px;">郑清</h3>
+          <p style="color:#fff;min-height:48px;">基金会主席</p>
+		  <p><a href="http://www.linkedin.com/in/robertasvisinskis/" style="display:none;"><img src="./img/ico/link.png"> </a></p>
+		 
+        </div>
+      </div>
+      <div class="team-item  wow fadeInUp animated" data-wow-delay="0.1s" style="visibility: visible; animation-duration: 1s; animation-name: fadeInUp;">
+        <div class="team-item-info">
+          <img src="./img/advisers/wx.png" srcset="./img/advisers/wx.png" alt="Paulius Mozuras" style="border-radius: 50%;">
+          <div class="flag flag-cz"></div>
+          <h3 style="color:#fff;min-height:48px;">Paulius Mozuras</h3>
+          <p style="color:#fff;min-height:48px;">联合创始人、智能合同和Python开发者</p>
+		  <p><a href="https://www.linkedin.com/in/paulius-mozuras-82b0027/"><img src="./img/ico/link.png"> </a></p>
+        </div>
+      </div>
+      <div class="team-item  wow fadeInUp animated" data-wow-delay="0.1s" style="visibility: visible; animation-duration: 1s; animation-name: fadeInUp;">
+        <div class="team-item-info">
+         <img src="./img/advisers/lcy.png" srcset="./img/advisers/lcy.png" alt="Valdas Petrulis" style="border-radius: 50%;">
+          <div class="flag flag-ve"></div>
+          <h3 style="color:#fff;min-height:48px;">Valdas Petrulis</h3>
+          <p style="color:#fff;min-height:48px;">联合创始人和首席软件工程师</p>
+		  <p><a href="https://lt.linkedin.com/in/valdaspetrulis"><img src="./img/ico/link.png"> </a></p>
+        </div>
+      </div>
+      <div class="team-item  wow fadeInUp animated" data-wow-delay="0.1s" style="visibility: visible; animation-duration: 1s; animation-name: fadeInUp;">
+        <div class="team-item-info">
+           <img src="./img/advisers/sqf.png"  srcset="./img/advisers/sqf.png" alt="Vitas Civilis" style="border-radius: 50%;">
+          <div class="flag flag-se"></div>
+          <h3 style="color:#fff;min-height:48px;">Vitas Civilis</h3>
+          <p style="color:#fff;min-height:48px;">全栈软件工程师</p>
+		  <p><a href="https://www.linkedin.com/in/civilis"><img src="./img/ico/link.png"> </a></p>
+        </div>
+      </div>
+      <div class="team-item  wow fadeInUp animated" data-wow-delay="0.1s" style="visibility: visible; animation-duration: 1s; animation-name: fadeInUp;">
+        <div class="team-item-info">
+           <img src="./img/advisers/lyy.png"  srcset="./img/advisers/lyy.png" alt="Miho Frankovic" style="border-radius: 50%;">
+          <div class="flag flag-nl"></div>
+          <h3 style="color:#fff;min-height:48px;">Marta Kuzmickaite</h3>
+          <p style="color:#fff;min-height:48px;">人员操作与交流</p>
+		  <p><a href="https://www.linkedin.com/in/marta-kuz/"><img src="./img/ico/link.png"> </a></p>
+        </div>
+      </div>
+      <div class="team-item  wow fadeInUp animated" data-wow-delay="0.1s" style="visibility: visible; animation-duration: 1s; animation-name: fadeInUp;">
+        <div class="team-item-info">
+            <img src="./img/advisers/wb.png"  srcset="./img/advisers/wb.png" alt="Marta Kuzmickaite" style="border-radius: 50%;">
+          <div class="flag flag-gb"></div>
+          <h3 style="color:#fff;min-height:48px;">Ramūnas Norvaisas</h3>
+          <p style="color:#fff;min-height:48px;">产品经理</p>
+		  <p><a href="https://www.linkedin.com/in/ramunasnorvaisas/"><img src="./img/ico/link.png"> </a></p>
+        </div>
+      </div>
+    
+      <div class="team-item  wow fadeInUp animated" data-wow-delay="0.1s" style="visibility: visible; animation-duration: 1s; animation-name: fadeInUp;">
+        <div class="team-item-info">
+           <img src="./img/advisers/xy.png"  srcset="./img/advisers/xy.png" alt="Ramūnas Norvaisas" style="border-radius: 50%;">
+          <div class="flag flag-se"></div>
+          <h3 style="color:#fff;min-height:48px;">Ignas Bernotas</h3>
+          <p style="color:#fff;min-height:48px;">软件工程师 </p>
+		  
+		  <p><a href="https://www.linkedin.com/in/bernotas/"><img src="./img/ico/link.png"> </a></p>
+        </div>
+      </div>
+      <div class="team-item  wow fadeInUp animated" data-wow-delay="0.1s" style="visibility: visible; animation-duration: 1s; animation-name: fadeInUp;">
+        <div class="team-item-info">
+           <img src="./img/advisers/zx.png"  srcset="./img/advisers/zx.png" alt="Tadas Valiukas" style="border-radius: 50%;">
+          <div class="flag flag-nl"></div>
+          <h3 style="color:#fff;min-height:48px;">Tadas Valiukas</h3>
+          <p style="color:#fff;min-height:48px;">软件工程师</p>
+		   <p><a href="https://www.linkedin.com/in/tadas-valiukas-aa56732/"><img src="./img/ico/link.png"> </a></p>
+        </div>
+      </div>
+      <div class="team-item  wow fadeInUp animated" data-wow-delay="0.1s" style="visibility: visible; animation-duration: 1s; animation-name: fadeInUp;">
+        <div class="team-item-info">
+            <img src="./img/advisers/am.png"  srcset="./img/advisers/am.png" alt="Antanas Masevicius" style="border-radius: 50%;">
+          <div class="flag flag-gb"></div>
+          <h3 style="color:#fff;min-height:48px;">Antanas Masevicius</h3>
+          <p style="color:#fff;min-height:48px;">网络工程师</p>
+		    <p><a href="https://www.linkedin.com/in/antanas-masevicius-6150872/"><img src="./img/ico/link.png"> </a></p>
+        </div>
+      </div>
+	  
+	   <div class="team-item  wow fadeInUp animated" data-wow-delay="0.1s" style="visibility: visible; animation-duration: 1s; animation-name: fadeInUp;">
+        <div class="team-item-info">
+           <img src="./img/advisers/gk.png"  srcset="./img/advisers/gk.png" alt="Gitanas Kancerevycius" style="border-radius: 50%;">
+          <div class="flag flag-nl"></div>
+          <h3 style="color:#fff;min-height:48px;">Gitanas Kancerevycius</h3>
+          <p style="color:#fff;min-height:48px;">战略与业务发展顾问</p>
+		    <p><a href="http://linkedin.com/in/gitanas-kancerevycius-32a7553"><img src="./img/ico/link.png"> </a></p>
+        </div>
+      </div>
+      <div class="team-item  wow fadeInUp animated" data-wow-delay="0.1s" style="visibility: visible; animation-duration: 1s; animation-name: fadeInUp;">
+        <div class="team-item-info">
+            <img src="./img/advisers/az.png"  srcset="./img/advisers/az.png" alt="Donatas Kucinskas" style="border-radius: 50%;">
+          <div class="flag flag-gb"></div>
+          <h3 style="color:#fff;min-height:48px;">Donatas Kucinskas</h3>
+          <p style="color:#fff;min-height:48px;">软件工程师</p>
+		   <p><a href="https://www.linkedin.com/in/donatas-kucinskas/"><img src="./img/ico/link.png"> </a></p>
+        </div>
+      </div>
+	  
+	  
+    </div>
+  </div>
+</section>
+
+<section class="team" id="partner">
+    <div class="section-wrap">
+        <h2>合作伙伴</h2>
+        <div class="team-items">
+           
+            <div class="team-item  wow fadeInUp animated" data-wow-delay="0.1s" style="visibility: visible; animation-duration: 1s; animation-name: fadeInUp;">
+                <img src="./img/partners/wogc.png?v=26793"  srcset="./img/partners/wogc.png?v=26793" 2x"="" alt="WOGC">
+            </div>
+            <div class="team-item  wow fadeInUp animated" data-wow-delay="0.1s" style="visibility: visible; animation-duration: 1s; animation-name: fadeInUp;">
+                <img src="./img/partners/eea.png?v=26793" srcset="./img/partners/eea.png?v=26793" 2x"="" alt="EEA">
+            </div>
+            <div class="team-item  wow fadeInUp animated" data-wow-delay="0.1s" style="visibility: visible; animation-duration: 1s; animation-name: fadeInUp;">
+                <img src="./img/partners/hyperledger.png" srcset="./img/partners/hyperledger.png" 2x"="" alt="Hyperledger">
+            </div>
+            <div class="team-item  wow fadeInUp animated" data-wow-delay="0.1s" style="visibility: visible; animation-duration: 1s; animation-name: fadeInUp;">
+                <img src="./img/partners/accenture.png?v=26793"  srcset="./img/partners/accenture.png?v=26793" 2x"="" alt="Accenture">
+            </div>
+            <div class="team-item  wow fadeInUp animated" data-wow-delay="0.1s" style="visibility: visible; animation-duration: 1s; animation-name: fadeInUp;">
+                <img src="./img/partners/cme.png?v=26793" srcset="./img/partners/cme.png?v=26793" 2x"="" alt="CME Group">
+            </div>
+            <div class="team-item  wow fadeInUp animated" data-wow-delay="0.1s" style="visibility: visible; animation-duration: 1s; animation-name: fadeInUp;">
+                <img src="./img/partners/dbg.png?v=26793"  srcset="./img/partners/dbg.png?v=26793" 2x"="" alt="DEUTSCHE
+                BORSE GROUP">
+            </div>
+            <div class="team-item  wow fadeInUp animated" data-wow-delay="0.1s" style="visibility: visible; animation-duration: 1s; animation-name: fadeInUp;">
+                <img src="./img/partners/intel.png?v=26793" srcset="./img/partners/intel.png?v=26793" 2x"="" alt="Intel">
+            </div>
+            <div class="team-item  wow fadeInUp animated" data-wow-delay="0.1s" style="visibility: visible; animation-duration: 1s; animation-name: fadeInUp;">
+                <img src="./img/partners/jpm.png?v=26793"  srcset="./img/partners/jpm.png?v=26793" 2x"="" alt="J.P.Morgan">
+            </div>
+            <div class="team-item  wow fadeInUp animated" data-wow-delay="0.1s" style="visibility: visible; animation-duration: 1s; animation-name: fadeInUp;">
+                <img src="./img/partners/alphapoint.png?v=26793"  srcset="./img/partners/alphapoint.png?v=26793" 2x"="" alt="AlphaPoint">
+            </div>
+            <div class="team-item  wow fadeInUp animated" data-wow-delay="0.1s" style="visibility: visible; animation-duration: 1s; animation-name: fadeInUp;">
+                <img src="./img/partners/bbva.png?v=26793"  srcset="./img/partners/bbva.png?v=26793" 2x"="" alt="BBVA">
+            </div>
+            <div class="team-item  wow fadeInUp animated" data-wow-delay="0.1s" style="visibility: visible; animation-duration: 1s; animation-name: fadeInUp;">
+                <img src="./img/partners/clause.png?v=26793" srcset="./img/partners/clause.png?v=26793" 2x"="" alt="Clause">
+            </div>
+            <div class="team-item  wow fadeInUp animated" data-wow-delay="0.1s" style="visibility: visible; animation-duration: 1s; animation-name: fadeInUp;">
+                <img src="./img/partners/deloitte.png?v=26793"  srcset="./img/partners/deloitte.png?v=26793" 2x"="" alt="Deloitte">
+            </div>
+            <div class="team-item  wow fadeInUp animated" data-wow-delay="0.1s" style="visibility: visible; animation-duration: 1s; animation-name: fadeInUp;">
+                <img src="./img/partners/ey.png?v=26793"  srcset="./img/partners/ey.png?v=26793" 2x"="" alt="EY">
+            </div>
+            <div class="team-item  wow fadeInUp animated" data-wow-delay="0.1s" style="visibility: visible; animation-duration: 1s; animation-name: fadeInUp;">
+                <img src="./img/partners/nttdata.png?v=26793"  srcset="./img/partners/nttdata.png?v=26793" 2x"="" alt="NTT
+                DATA">
+            </div>
+            <div class="team-item  wow fadeInUp animated" data-wow-delay="0.1s" style="visibility: visible; animation-duration: 1s; animation-name: fadeInUp;">
+                <img src="./img/partners/oracle.png?v=26793"  srcset="./img/partners/oracle.png?v=26793" 2x"="" alt="ORACLE">
+            </div>
+            <div class="team-item  wow fadeInUp animated" data-wow-delay="0.1s" style="visibility: visible; animation-duration: 1s; animation-name: fadeInUp;">
+                <img src="./img/partners/tr.png?v=26793"  srcset="./img/partners/tr.png?v=26793" 2x"="" alt="THOMSON
+                REUTERS">
+            </div>
+            <div class="team-item  wow fadeInUp animated" data-wow-delay="0.1s" style="visibility: visible; animation-duration: 1s; animation-name: fadeInUp;">
+                <img src="./img/partners/wipro.png?v=26793"  srcset="./img/partners/wipro.png?v=26793" 2x"="" alt="Wipro">
+            </div>
+            <div class="team-item  wow fadeInUp animated" data-wow-delay="0.1s" style="visibility: visible; animation-duration: 1s; animation-name: fadeInUp;">
+                <img src="./img/partners/tecnalia.png?v=26793"  srcset="./img/partners/tecnalia.png?v=26793" 2x"="" alt="Tecnalia">
+            </div>
+            <div class="team-item  wow fadeInUp animated" data-wow-delay="0.1s" style="visibility: visible; animation-duration: 1s; animation-name: fadeInUp;">
+                <img src="./img/partners/rfintech.png?v=26793"  srcset="./img/partners/rfintech.png?v=26793" 2x"="" alt="RFintech">
+            </div>
+            <div class="team-item  wow fadeInUp animated" data-wow-delay="0.1s" style="visibility: visible; animation-duration: 1s; animation-name: fadeInUp;">
+                <img src="./img/partners/dobi.png?v=26793"  srcset="./img/partners/dobi.png?v=26793" 2x"="" alt="dobi">
+            </div>
+        </div>
+        
+    </div>
+</section>
+
+
+<footer id="footer">
+    <div class="section-wrap fadeInDown wow" id="join-us" data-wow-delay="0.2s">
+        
+        <ul class="footer__soc">
+            <li><a data-label="wc" title="WeChat" target="_blank" href="#"
+                   rel="nofollow"><img src="./img/ico/wechat-big.png" alt="wechat"></a></li>
+            <li><a data-label="fb" title="Facebook" target="_blank" href="#"
+                   rel="nofollow"><img src="./img/ico/fb-big.png" alt="Facebook"></a></li>
+            <li><a data-label="tw" title="Twitter" target="_blank" href="#"
+                   rel="nofollow"><img src="./img/ico/tw-big.png" alt="Twitter"></a></li>
+            <li><a data-label="gh" title="Github" target="_blank" href="#"
+                   rel="nofollow"><img src="./img/ico/cat-big.png" alt="Github"></a></li>
+            <li><a data-label="tg" title="Telegram" target="_blank" href="#"
+                   rel="nofollow"><img src="./img/ico/tele-big.png" alt="Telegram"></a></li>
+            <li><a data-label="rd" title="Reddit" target="_blank" href="#"
+                   rel="nofollow"><img src="./img/ico/reddit-big.png" alt="Reddit"></a></li>
+            <li><a data-label="li" title="LinkedIn" target="_blank"
+                   href="#" rel="nofollow"><img src="./img/ico/li.png"
+                                                                                              alt="LinkedIn"></a></li>
+            <li><a data-label="md" title="Medium Blog" target="_blank" href="#"
+                   rel="nofollow"><img src="./img/ico/md.png" alt="Medium Blog"></a></li>
+            <li><a data-label="bt" title="BitcoinTalk" target="_blank"
+                   href="#" rel="nofollow"><img
+                    src="./img/ico/bitcoin.png" alt="BitcoinTalk"></a></li>
+        </ul>
+
+        <p>© 2018 基金链 CBC
+        </p>
+		<!--
+        <p class="contact-email">
+            <small>Genesis Vision LP, Requested address: OFFICE 29 CLIFTON HOUSE FITZWILLIAM STREET LOWER DUBLIN 2,
+                Dublin, Ireland
+            </small>
+        </p>
+		-->
+    </div>
+</footer>
+
+
+
+
+<button class="scroll-top tran3s color2_bg" style="display: none;">
+        <span class="fa fa-angle-up"></span>
+    </button>
+<script data-cfasync="false" src="./js/html5_3d_animation.js"></script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/af2821b0/cloudflare-static/email-decode.min.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/vivus.min.js"></script>
+<script src="js/timer.js?id=35"></script>
+<script src="./js/wow.js"></script>
+<script type="text/javascript">
+ $(function() {
+ new WOW().init();
+        $("#html5_3d_animation").html5_3d_animation({
+            //window_width: '600',
+            //window_height: '400',
+            window_background: '#1D182F',//#00729A
+            star_count: '1000',
+            star_color: '#F0CA47', //"#dfffff" 
+            star_depth: '200'
+        });
+    });
+</script>
+</body>
+
+</html>
